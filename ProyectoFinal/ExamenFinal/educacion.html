@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, user-scalable=no">
+    <meta name="author" content="Eduardo Serrano">
+    <meta name="description" content="Hoja de Vida">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <header>
+    <img src="img/logo.svg" alt="Logo Eduardo" title="logo Eduardo" width="200"/>
+    <h1>Hoja de Vida</h1>
+    <ul>
+      <li><h2>Nombre:Eduardo Neptali</h2></li>
+      <li><h2>Apellidos: Serrano Pablo</h2></li>
+      <li><h3>Fecha de Nacimiento: 25 de Septiembre de 1996.</h3></li>
+      <li><h3>Santa Cruz Barrillas, Huehuetenango, Guatemala.</h3></li>
+    </ul>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="educacion.html">Educacion</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2>Educacion</h2>
+      <table border="1">
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Carrera</th>
+          <th>Curso</th>
+          <th>lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+        <tr>
+          <td>2013-2015</td>
+          <td>Don Bosco</td>
+          <td>Perito en Mecanica A. y Bach. Industrial</td>
+          <td>---</td>
+          <td>Quetzaltenago, Guatemala</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td>Intecap</td>
+          <td>---</td>
+          <td>Electronica</td>
+          <td>Quetzaltenago, Guatemala</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Intecap</td>
+          <td>---</td>
+          <td>Electricidad</td>
+          <td>San Sebastian Coatan, H. Guatemala</td>
+          <td>No</td>
+          <label for="Nombre">Año:</label>
+        </tr>
+      </table>
+      <form autocomplete="on" name="Estudios">
+        <legend><h2>Agregar Estudios</h2></legend>
+          <p><label for="Nombre"><strong>Año:</strong></label>
+          <select>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
+          </select>
+        </p>
+        <p>
+          <label for="text"><strong>Institucion:</strong></label>
+          <input type="text" required>
+       </p>
+       <p>
+         <label for="text"><strong>Lugar:</strong> </label>
+			      <textarea name="comment" id="text" cols="30" rows="1" required></textarea>
+        </p>
+        <p>
+         <label for="¿Culmino?"><strong>¿Culminó?</strong></label>
+          <input type="radio" name="text">Si
+          <input type="radio" name="text">No
+        </p>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+    <footer>
+      <h3>Derechos Reservados</h3>
+      <ul>
+        <li><h3>Correo Electronico: <a href="mailto:edduardo_25@outlook.com">edduardo_25@outlook.com</a></h3></li>
+        <li><h3>Tel: 502-3202-8060</h3></li>
+        <li><h3>Facebook: Edduardo Serrano</h3></li>
+      </ul>
+    </footer>
+  </body>
+</html>
